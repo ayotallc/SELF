@@ -1,0 +1,94 @@
+/* Subscribe area */
+
+.subscribe .container {
+  min-height: 151px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+  top: 64px;
+  padding-top: 49px;
+  padding-bottom: 14px;
+}
+
+.subscribe .subscribeBtn {
+  width: 250px;
+  height: 60px;
+  background-color: #f53838;
+  border-radius: 10px;
+  color: #ffffff;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.subscribe .subscribeBtn:hover {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .subscribe .container {
+    top: 118px;
+  }
+
+  .subscribe h1 {
+    font-size: 22px;
+  }
+
+  .subscribe .subscribeBtn {
+    width: 178px;
+    height: 38px;
+  }
+}
+
+/* Footer */
+
+.footer {
+  background-color: #f8f8f8;
+  min-height: 500px;
+  margin-bottom: 50px;
+}
+
+.footer .container {
+  padding-top: 92px;
+}
+
+.footer .paragraph {
+  margin-top: 29px;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+
+.footer .socialMedia {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .socialMedia .iconDiv {
+  background-color: white;
+  color: red;
+  width: 35px;
+  border-radius: 50%;
+  height: auto;
+  cursor: pointer;
+  font-size: 21px;
+}
+
+.footer .socialMedia .iconDiv .socialMeadiLinks {
+  color: red !important;
+}
+
+.footer .listGrid .heading {
+  margin-top: 50px;
+}
+
+.footer .listGrid .heading {
+  font-weight: bold;
+}
+
+.footer .listGrid ul li {
+  padding-bottom: 15px;
+}
+
+.footer .listGrid .links {
+  color: black;
+  text-decoration: none;
+}
