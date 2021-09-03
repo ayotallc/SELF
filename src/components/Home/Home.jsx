@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles/Home.css";
 import { Link } from "react-router-dom";
 import carousel2Image from "../../images/Home/carousel2.png";
@@ -15,15 +15,12 @@ import chatBotIcon from "../../images/Home/chatBotIcon.png";
 import shoppingCard from "../.././images/Home/shoppingCard.png";
 import rightCheck from "../.././images/Home/rightCheck.png";
 import humanImage from "../.././images/Home/humanImage.png";
-// import humanVideo2 from "../.././images/Home/humanImage2.mp4";
 import humanGIF1 from "../.././images/Home/humanImage1.gif";
 import humanGIF2 from "../.././images/Home/humanImage2.gif";
-// import humanImage3 from "../.././images/Home/humanImage3.png";
 import humanGIF3 from "../.././images/Home/humanImage3.gif";
 import humanGIF4 from "../.././images/Home/humanImage4.gif";
 import humanGIF5 from "../.././images/Home/humanImage5.gif";
 import humanGIF6 from "../.././images/Home/humanImage6.gif";
-// import humanVideo3 from "../.././images/Home/humanImage3.mp4";
 import stickImage from "../../images/Home/stickImage.png";
 import fruits from "../../images/Home/fruits.png";
 import babyImage from "../../images/Home/babyImage.png";
@@ -31,6 +28,12 @@ import HealthTech from "../../images/Home/HealthTech.png";
 import SmartClothing from "../../images/Home/SmartClothing.png";
 
 const Home = () => {
+  document.title = "Home";
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       {/* Main carousel */}
@@ -696,23 +699,6 @@ const Home = () => {
                     className="img-fluid video"
                   />
                 </div>
-
-                {/* <div className="row gy-4 text-center">
-                  <div className="col-6">
-                    <img
-                      src={humanGIF3}
-                      alt="humanImage2"
-                      className="img-fluid video"
-                    />
-                  </div>
-                  <div className="col-6">
-                    <img
-                      src={humanGIF2}
-                      alt="humanImage3"
-                      className="img-fluid video"
-                    />
-                  </div>
-                </div> */}
               </div>
               <div className="carousel-item">
                 <div className="text-center mt-5">

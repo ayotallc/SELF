@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const TermAndCondition = () => {
+  document.title = "Term & Condition";
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <section className="TermAndCondition p-3 pt-lg-5 p-lg-0">

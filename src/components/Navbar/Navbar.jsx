@@ -27,10 +27,7 @@ const Navbar = () => {
                   aria-current="page"
                   to="#"
                   onClick={() =>
-                    window.open(
-                      "https://ingrownorganics.com/products/south-of-france-bar-soap-green-tea-1x6-oz?_pos=16&_sid=e2e9f1829&_ss=r",
-                      "_self"
-                    )
+                    window.open("https://selfplatform.io/", "_self")
                   }
                 >
                   Home
@@ -64,7 +61,7 @@ const Navbar = () => {
                   to="#"
                   onClick={() =>
                     window.open(
-                      "https://ingrownorganics.com/products/mirror-image%E2%84%A2",
+                      "https://market.selfplatform.io/products/mirror-image%E2%84%A2",
                       "_self"
                     )
                   }
@@ -72,28 +69,12 @@ const Navbar = () => {
                   Create Mirror Image
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="#">
                   Help
                 </Link>
-              </li>
+              </li> */}
             </ul>
-
-            {/* <div className="d-flex ms-auto searchBox">
-              <div className="input-group">
-                <span
-                  className="input-group-text searchIconBtn"
-                  id="basic-addon1"
-                >
-                  <i className="fas fa-search"></i>
-                </span>
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Search store"
-                />
-              </div>
-            </div> */}
           </div>
         </div>
       </nav>

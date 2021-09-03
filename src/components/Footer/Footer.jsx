@@ -71,19 +71,40 @@ const Footer = () => {
                 <div className="col-sm-4">
                   <ul className="navbar-nav">
                     <li className="heading">Explore</li>
-                    <li>Create Your M.I. </li>
+                    <Link
+                      to="#"
+                      onClick={() =>
+                        window.open(
+                          "https://market.selfplatform.io/products/mirror-image%E2%84%A2"
+                        )
+                      }
+                      className="links"
+                    >
+                      <li>Create Your M.I.</li>
+                    </Link>
 
-                    <li>The SELF Experience </li>
+                    {/* <li>The SELF Experience </li> */}
 
-                    <li>Our Team</li>
+                    {/* <li>Our Team</li> */}
                   </ul>
                 </div>
-                <div className="col-sm-4">
+
+                {<div className="col-sm-4">
                   <ul className="navbar-nav">
                     <li className="heading">Helpful Links</li>
-                    <li>Help Center</li>
+                    {/*<li>Help Center</li>*/}
 
-                    <li>What's New</li>
+                    <Link
+                      to="#"
+                      onClick={() =>
+                        window.open(
+                          "https://medium.com/@theinventor/mirror-image-the-introduction-into-the-metaverse-642271ee9830?sk=57c8cab3647e74313fadd4b186d1da83"
+                        )
+                      }
+                      className="links"
+                    >
+                      <li>What's New</li>
+                    </Link>
 
                     <Link to="/TermAndCondition" className="links">
                       <li>Terms & Conditions</li>
@@ -93,13 +114,22 @@ const Footer = () => {
                       <li>Privacy Policy</li>
                     </Link>
                   </ul>
-                </div>
+                </div>}
+
                 <div className="col-sm-4">
                   <ul className="navbar-nav">
                     <li className="heading">Earn Money</li>
-                    <li>Join Our Affiliate Program</li>
+                    <Link
+                      to="#"
+                      onClick={() =>
+                        window.open("https://affiliates.selfplatform.io/")
+                      }
+                      className="links"
+                    >
+                      <li>Join Our Affiliate Program</li>
+                    </Link>
 
-                    <li>Become A Partner</li>
+                   
                   </ul>
                 </div>
               </div>
