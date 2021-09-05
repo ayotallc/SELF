@@ -37,9 +37,7 @@ const Navbar = () => {
                 <Link
                   className="nav-link"
                   to="#"
-                  onClick={() =>
-                    window.open("https://market.selfplatform.io/", "_self")
-                  }
+                  onClick={() => window.open("https://market.selfplatform.io/")}
                 >
                   Shop
                 </Link>
@@ -61,8 +59,7 @@ const Navbar = () => {
                   to="#"
                   onClick={() =>
                     window.open(
-                      "https://market.selfplatform.io/products/mirror-image%E2%84%A2",
-                      "_self"
+                      "https://ingrownorganics.com/products/mirror-image%E2%84%A2"
                     )
                   }
                 >

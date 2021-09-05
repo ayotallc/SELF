@@ -28,7 +28,7 @@ import HealthTech from "../../images/Home/HealthTech.png";
 import SmartClothing from "../../images/Home/SmartClothing.png";
 
 const Home = () => {
-  document.title = "Home";
+  document.title = "SELF | MIND BODY SOUL";
 
   useEffect(() => {
     window.scrollTo(0, 0);
